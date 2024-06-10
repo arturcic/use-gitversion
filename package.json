@@ -33,7 +33,7 @@
         "inversify": "^6.0.2",
         "semver": "^7.6.2",
         "typed-rest-client": "^1.8.11",
-        "uuid": "^9.0.1"
+        "uuid": "^10.0.0"
     },
     "devDependencies": {
         "@types/node": "^20.14.0",
