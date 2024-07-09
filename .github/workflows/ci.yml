@@ -44,6 +44,9 @@ jobs:
         npm run build:agent:github
         npm run build:agent:azure
       name: Build code
+    - run: |
+        npm run test
+      name: Run tests
     - name: gitversion/setup
       uses: ./gitversion/setup
       with:
